@@ -1,2 +1,36 @@
-# FlowChChChart
- Code to flowchart. C++ support only  for the time being.
+ # FlowChChChart
+  Code to flowchart. C++ support only  for the time being.
+
+  ## 如何运行
+    通过win32图形编辑库ACLLib
+    将C++源代码转化为流程图。
+
+  ## 已经完成内容
+    语句接口类
+
+  ## ToDo
+    做出一个helloworld的流程图。
+
+  ## 使用方法
+    如果你有Visual Studio 可以直接点击sln工程文件打开，编译运行。注意这是win32程序（如果你要自己创建的话）。
+    其它同学可以私信我为你编译可执行文件。
+    暂时只支持win（我也不会linux）。
+
+  ## 规范：
+   ### 语句的作图
+        椭圆（圆角矩形）表示“开始”与“结束”。用作起始框和结束框。
+        矩形表示执行某一语句。用作执行框。
+        菱形表示判断。用作判断框。//判断分流，三种语句都要支持
+        平行四边形表示数据处理。用作数据处理框。//平行四边形和矩形的区分是个难题
+        箭头：流向，表示执行的方向与顺序
+        //文件修改：曲边矩形
+        //双边矩形：预设处理（函数）包含流程图（不详细显示）
+        //方括号：注释。这个要想好如何排版
+        //还有什么三角形，六边形，梯形，数据库，角色，双弧边矩形，顶点双边矩形和六边形。先放着，有用时再派生出来。
+   ### 语句间逻辑
+        顺序：向下先。
+
+  **附**
+  我的编译环境：win10，vs2019。
+  灵感：https://github.com/Gusabary/FlowChar
+  ACLLib库：https://github.com/wengkai/ACLLib
