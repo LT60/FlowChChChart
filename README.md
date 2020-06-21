@@ -1,5 +1,6 @@
  # FlowChChChart
   Code to flowchart. C++ support only  for the time being.
+  代码生成流程图。暂时只支持C++。
 
   ## 如何运行
     通过win32图形编辑库ACLLib
@@ -10,9 +11,10 @@
 
   ## ToDo
     做出一个helloworld的流程图。
+    完成后写个英文版的readme，程序也支持以下英语。
 
   ## 使用方法
-    如果你有Visual Studio 可以直接点击sln工程文件打开，编译运行。注意这是win32程序（如果你要自己创建的话）。
+    如果你有Visual Studio 可以直接通过双击sln工程文件打开，编译运行。注意这是win32程序（如果你要自己创建的话）。
     其它同学可以私信我为你编译可执行文件。
     暂时只支持win（我也不会linux）。
 
