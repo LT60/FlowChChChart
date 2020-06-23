@@ -1,6 +1,7 @@
  # FlowChChChart
   Code to flowchart. C++ support only  for the time being.
   代码生成流程图。暂时只支持C++。
+ # （因acllib无法输出图片，bmp还要学数据结构，所以先放一下）
 
   ## 如何运行
     通过win32图形编辑库ACLLib
